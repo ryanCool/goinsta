@@ -100,6 +100,7 @@ func (h *Hashtag) Next() bool {
 			IsPost:   false,
 		},
 	)
+	fmt.Println("body=",string(body))
 	if err == nil {
 		ht := &Hashtag{}
 		err = json.Unmarshal(body, ht)
