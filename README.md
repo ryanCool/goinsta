@@ -3,7 +3,7 @@
 
 > Unofficial Instagram API for Golang
 
-[![Build Status](https://travis-ci.org/ahmdrz/goinsta.svg?branch=master)](https://travis-ci.org/ahmdrz/goinsta) [![GoDoc](https://godoc.org/github.com/ahmdrz/goinsta?status.svg)](https://godoc.org/github.com/ahmdrz/goinsta) [![Go Report Card](https://goreportcard.com/badge/github.com/ahmdrz/goinsta)](https://goreportcard.com/report/github.com/ahmdrz/goinsta) [![Gitter chat](https://badges.gitter.im/goinsta/community.png)](https://gitter.im/goinsta/community)
+[![Build Status](https://travis-ci.org/ahmdrz/goinsta.svg?branch=master)](https://travis-ci.org/ahmdrz/goinsta) [![GoDoc](https://godoc.org/github.com/ryanCool/goinsta?status.svg)](https://godoc.org/github.com/ryanCool/goinsta) [![Go Report Card](https://goreportcard.com/badge/github.com/ryanCool/goinsta)](https://goreportcard.com/report/github.com/ryanCool/goinsta) [![Gitter chat](https://badges.gitter.im/goinsta/community.png)](https://gitter.im/goinsta/community)
 
 ### Features
 
@@ -47,7 +47,7 @@ func main() {
 
 - [go-instabot](https://github.com/tducasse/go-instabot)
 - [nick_bot](https://github.com/icholy/nick_bot)
-- [instagraph](https://github.com/ahmdrz/instagraph)
+- [instagraph](https://github.com/ryanCool/instagraph)
 - [icrawler](https://github.com/themester/icrawler)
 - [ermes](https://github.com/borteo/ermes)
 - [instafeed](https://github.com/falzm/instafeed)
@@ -77,7 +77,7 @@ Or
 If you have `GO111MODULE=on`
 
 ```
-$ go get -u github.com/ahmdrz/goinsta/v2
+$ go get -u github.com/ryanCool/goinsta/v2
 ```
 
 ### Donate
