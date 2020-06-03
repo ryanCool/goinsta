@@ -89,6 +89,7 @@ func (h *Hashtag) Next() bool {
 	}
 	insta := h.inst
 	name := h.Name
+	fmt.Println("nextId==",h.NextID)
 	body, err := insta.sendRequest(
 		&reqOptions{
 			Query: map[string]string{
@@ -100,11 +101,11 @@ func (h *Hashtag) Next() bool {
 			IsPost:   false,
 		},
 	)
-	fmt.Println("body=",string(body))
 	if err == nil {
 		ht := &Hashtag{}
 		err = json.Unmarshal(body, ht)
 		if err == nil {
+			fmt.Println("response nextID=",ht.NextID)
 			*h = *ht
 			h.inst = insta
 			h.Name = name
